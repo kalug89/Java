@@ -31,11 +31,11 @@ public class Main {
 //        int scannerSum = firstNum + secondNum;
 //        System.out.println("Sum is: " + scannerSum);
 
-        /*
-        2 program - check Even or Odd number
-        */
+      /*
+     2 program - check Even or Odd number
+     */
 
-        //Chech number from array
+        //Check number from array
 
         int[] table = {1, 2, 3, 4, 5, 6, 7, 8};
 
@@ -45,6 +45,19 @@ public class Main {
             } else {
                 System.out.println("Liczba " + i + " jest nieparzysta");
             }
+        }
+
+        //Check number from input terminal
+
+        Scanner numberObj = new Scanner(System.in);
+        System.out.println("Please write integer number");
+
+        int number = numberObj.nextInt();
+
+        if (number % 2 == 0) {
+            System.out.println("Number " + number + " is odd");
+        } else {
+            System.out.println("Number " + number + " is even");
         }
     }
 }
