@@ -4,7 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-     /*1 Add two Numbers */
+     /*1
+     Add two Numbers
+     */
 
 //        int firstNumber = 1;
 //        int secondNumber = 2;
@@ -14,7 +16,9 @@ public class Main {
 //        System.out.println(firstNumber + secondNumber);
 //        System.out.println(sum);
 
-     /*2 Add two Numbers with input number */
+     /*
+     2 Add two Numbers with input number
+     */
 
 //        System.out.println("Add two number. Please give me first:");
 //        Scanner scannerFirstNumber = new Scanner(System.in);
@@ -26,5 +30,21 @@ public class Main {
 //
 //        int scannerSum = firstNum + secondNum;
 //        System.out.println("Sum is: " + scannerSum);
+
+        /*
+        2 program - check Even or Odd number
+        */
+
+        //Chech number from array
+
+        int[] table = {1, 2, 3, 4, 5, 6, 7, 8};
+
+        for (int i : table) {
+            if (i % 2 == 0) {
+                System.out.println("Liczba " + i + " jest parzysta");
+            } else {
+                System.out.println("Liczba " + i + " jest nieparzysta");
+            }
+        }
     }
 }
