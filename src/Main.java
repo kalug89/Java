@@ -151,5 +151,27 @@ public class Main {
             default:
                 System.out.println(letter + " Is not a Vowel");
         }
+
+    /*
+    6 program - calculate simple interest
+    */
+
+        System.out.println("Hello, we will calculate simple interest");
+        System.out.println(" ");
+        System.out.println("Please write principal amount");
+        Scanner principalAmountObj = new Scanner(System.in);
+        int principalAmount = principalAmountObj.nextInt();
+
+        System.out.println("Please write rate per annum");
+        Scanner ratePerAnnumObj = new Scanner(System.in);
+        float ratePerAnnum = ratePerAnnumObj.nextInt();
+
+        System.out.println("Please write time in years");
+        Scanner timeInyearObj = new Scanner(System.in);
+        int timeInyear = timeInyearObj.nextInt();
+
+        float sumOfInterest = (principalAmount * ratePerAnnum * timeInyear) / 100;
+
+        System.out.println("Yours interest is " + sumOfInterest);
     }
 }
