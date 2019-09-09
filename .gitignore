@@ -33,6 +33,7 @@
 # .idea/modules
 # *.iml
 # *.ipr
+.idea/vcs.xml
 
 # CMake
 cmake-build-*/
