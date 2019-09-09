@@ -66,25 +66,25 @@ public class Main {
 
         //Check number from variables
 
-        int firstNumber = 10;
-        int secondNumber = 13;
+        int MyFirstNumber = 10;
+        int MySecondNumber = 13;
 
-        int sum = firstNumber + secondNumber;
+        int MySum = MyFirstNumber + MySecondNumber;
 
-        System.out.println("Sum: " + sum);
-        System.out.println("Sum: " + (firstNumber + secondNumber));
+        System.out.println("Sum: " + MySum);
+        System.out.println("Sum: " + (MyFirstNumber + MySecondNumber));
 
         //Check number from input
 
         Scanner numFirstObj = new Scanner(System.in);
         System.out.println("Write yours first integer: ");
-        int firstNum = numFirstObj.nextInt();
+        int MyFirstNum = numFirstObj.nextInt();
 
         Scanner numSecondObj = new Scanner(System.in);
         System.out.println("Write yours second integer: ");
-        int secondNum = numSecondObj.nextInt();
+        int MySecondNum = numSecondObj.nextInt();
 
-        System.out.println("Sum this numbers is: " + (firstNum * secondNum));
+        System.out.println("Sum this numbers is: " + (MyFirstNum * MySecondNum));
 
      /*
      4 program - check Leap Year
