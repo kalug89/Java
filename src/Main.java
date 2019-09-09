@@ -85,5 +85,34 @@ public class Main {
         int secondNum = numSecondObj.nextInt();
 
         System.out.println("Sum this numbers is: " + (firstNum * secondNum));
+
+     /*
+     4 program - check Leap Year
+     */
+
+        Scanner yearObj = new Scanner(System.in);
+
+        System.out.println("Please write a year");
+
+        int year = yearObj.nextInt();
+        boolean isLab = true;
+
+        if (year % 4 == 0) {
+            if (year % 100 == 0) {
+                if (year % 400 == 0) {
+                    System.out.println("Year " + year + " is leap");
+                } else {
+                    isLab = false;
+                }
+            } else {
+                isLab = false;
+            }
+        } else {
+            isLab = false;
+        }
+        if (isLab) {
+        } else {
+            System.out.println("Year " + year + " is not leap");
+        }
     }
 }
