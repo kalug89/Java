@@ -114,5 +114,42 @@ public class Main {
         } else {
             System.out.println("Year " + year + " is not leap");
         }
+
+    /*
+    5 program - check Vowel or Consonant
+    */
+
+        Scanner letterObj = new Scanner(System.in);
+        System.out.println("Write a letter");
+        String letter = letterObj.nextLine();
+
+        switch (letter) {
+            case "a":
+                System.out.println(letter + "Is Vowel");
+                break;
+            case "e":
+                System.out.println(letter + " Is Vowel");
+                break;
+            case "y":
+                System.out.println(letter + " Is Vowel");
+                break;
+            case "o":
+                System.out.println(letter + " Is Vowel");
+                break;
+            case "ą":
+                System.out.println(letter + " Is Vowel");
+                break;
+            case "ę":
+                System.out.println(letter + " Is Vowel");
+                break;
+            case "u":
+                System.out.println(letter + " Is Vowel");
+                break;
+            case "ó":
+                System.out.println(letter + " Is Vowel");
+                break;
+            default:
+                System.out.println(letter + " Is not a Vowel");
+        }
     }
 }
