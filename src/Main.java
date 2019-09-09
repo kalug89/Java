@@ -31,7 +31,7 @@ public class Main {
 //        int scannerSum = firstNum + secondNum;
 //        System.out.println("Sum is: " + scannerSum);
 
-      /*
+     /*
      2 program - check Even or Odd number
      */
 
@@ -59,5 +59,31 @@ public class Main {
         } else {
             System.out.println("Number " + number + " is even");
         }
+
+     /*
+     3 program - multiply two numbers
+     */
+
+        //Check number from variables
+
+        int firstNumber = 10;
+        int secondNumber = 13;
+
+        int sum = firstNumber + secondNumber;
+
+        System.out.println("Sum: " + sum);
+        System.out.println("Sum: " + (firstNumber + secondNumber));
+
+        //Check number from input
+
+        Scanner numFirstObj = new Scanner(System.in);
+        System.out.println("Write yours first integer: ");
+        int firstNum = numFirstObj.nextInt();
+
+        Scanner numSecondObj = new Scanner(System.in);
+        System.out.println("Write yours second integer: ");
+        int secondNum = numSecondObj.nextInt();
+
+        System.out.println("Sum this numbers is: " + (firstNum * secondNum));
     }
 }
