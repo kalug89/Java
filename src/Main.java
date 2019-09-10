@@ -173,5 +173,18 @@ public class Main {
         float sumOfInterest = (principalAmount * ratePerAnnum * timeInyear) / 100;
 
         System.out.println("Yours interest is " + sumOfInterest);
+
+    /*
+    6 program - quotient and remainder
+    */
+
+        int num1 = 29;
+        int num2 = 10;
+
+        int quotient = num1 * num2;
+        int reminder = num1 % num2;
+
+        System.out.println(quotient);
+        System.out.println(reminder);
     }
 }
